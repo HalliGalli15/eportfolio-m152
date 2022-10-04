@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+
+    background-color: #F2F2F2;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+}
+
+/* #startimg {
+    position: absolute;
+
+    width: max-content;
+    height: max-content;
+
+    background: url("../img/photos/scout_camp.webp");
+} */
+
+footer {
+    height: 75px;
+    width: 100%;
+
+    background-color: #F2F2F2;
+}
