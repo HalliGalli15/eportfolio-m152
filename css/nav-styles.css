@@ -1,18 +1,35 @@
-nav {
+#navbar {
     height: 170px;
+    background-color: #fff;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 
-    padding-top: 30px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    transition: 0.15s; 
 
     /* Border-Line outside */
     border-bottom: 2px solid #1b381e;
 }
 
-nav .nav-title h1 {
+nav #logo {
+    height: 50px;
+    width: 50px;
+
+    left: 0;
+    position: absolute;
+    margin-left: 20px;
+
+    background-color: gray;
+}
+
+nav #nav-title h1 {
     font-weight: 700;
     font-size: 36px;
     line-height: 49px;
