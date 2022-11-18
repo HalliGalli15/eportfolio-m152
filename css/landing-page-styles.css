@@ -1,0 +1,15 @@
+.landing-page {
+    padding: 0;
+    height: calc(100vh - 170px);
+}
+
+.landing-page .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page .content img {
+    height: calc(100vh - 170px);
+}
