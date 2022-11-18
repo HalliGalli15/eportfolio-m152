@@ -1,0 +1,31 @@
+nav {
+    height: 170px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 30px;
+
+    /* Border-Line outside */
+    border-bottom: 2px solid #1b381e;
+}
+
+nav .title h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #1B381E;
+}
+
+nav .navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+nav .navbar a:hover {
+    color: #632f5d;
+}
