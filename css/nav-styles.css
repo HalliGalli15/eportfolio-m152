@@ -46,3 +46,22 @@ nav .navbar {
 nav .navbar a:hover {
     color: #632f5d;
 }
+
+@media screen and (max-width: 580px) {
+    /*
+    *  '!important' is used to not overwrite anything on small screens
+    */
+    #navbar {
+        height: 50px !important;
+        flex-direction: column !important;
+    }
+
+    #nav-title {
+        display: flex !important;
+    }
+
+    #logo {
+        display: none !important;
+    }
+
+  }
