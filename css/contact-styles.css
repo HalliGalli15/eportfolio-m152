@@ -1,0 +1,18 @@
+.contact {
+    background-color: aquamarine;
+}
+
+.contact .content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-title {
+    height: 100px;
+    background-color: #1B381E;
+}
+
+.content-form {
+    background-color: blue;
+}
