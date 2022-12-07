@@ -54,8 +54,24 @@ nav .navbar a:hover {
     *  '!important' is used to not overwrite anything on small screens
     */
     #navbar {
-        height: 50px !important;
+        height: 350px !important;
         flex-direction: column !important;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+
+    #nav-items {
+        width: 100%;
+        display: none;
+        background-color: cadetblue;
+        flex-direction: column;
+    }
+
+    .navbar-item {
+    }
+
+    #nav-button {
+        
     }
 
     #nav-title {

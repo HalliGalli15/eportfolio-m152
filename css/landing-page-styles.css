@@ -20,3 +20,24 @@
     /* TODO: Add z-index so it won't overlap */
     transform: scale(1.005); 
 }
+
+@media screen and (max-width: 580px) { 
+
+    .landing-page {
+        margin-top: 170px;
+        padding: 0;
+        height: 200px;
+    }
+    
+    .landing-page .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .landing-page .content img {
+        transition: transform .5s;
+        height: 200px;
+    }
+}

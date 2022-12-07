@@ -23,4 +23,11 @@ body {
 .navbar { grid-area: 1 / 1 / 2 / 2; }
   
 .body-content { grid-area: 2 / 1 / 3 / 2; }
-  
+
+@media screen and (max-width: 580px) { 
+
+    .body-content {
+        display: none !important;
+    }
+    
+}
