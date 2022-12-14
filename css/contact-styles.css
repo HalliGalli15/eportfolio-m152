@@ -11,8 +11,36 @@
 .content-title {
     height: 100px;
     background-color: #1B381E;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-title h2 {
+    color: #DDDDDD;
 }
 
 .content-form {
+    height: 200px;
+    width: 100%;
     background-color: blue;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content-form .inputs {
+
+    width: 40%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.content-form .contact-submit {
+    width: 40%;
+    height: 100%;
+    background-color: aqua;
 }
