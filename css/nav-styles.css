@@ -49,6 +49,10 @@ nav .navbar a:hover {
     color: #632f5d;
 }
 
+#nav-button {
+    display: none;
+}
+
 @media screen and (max-width: 580px) {
     /*
     *  '!important' is used to not overwrite anything on small screens
