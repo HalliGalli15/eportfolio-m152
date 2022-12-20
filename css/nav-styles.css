@@ -58,6 +58,7 @@ nav .navbar a:hover {
     *  '!important' is used to not overwrite anything on small screens
     */
     #navbar {
+        width: 100%;
         height: 150px;
         flex-direction: column !important;
         justify-content: space-between;
@@ -75,6 +76,7 @@ nav .navbar a:hover {
     }
 
     #nav-button {
+        display: block;
         margin-bottom: 25px;
     }
 

@@ -1,0 +1,21 @@
+/* general styling components */
+
+.section {
+    padding: 0;
+}
+
+.section .header {
+    height: 100px;
+    background-color: #1B381E;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .header h2 {
+    color: #DDDDDD;
+    font-weight: 600;
+    font-size: 25px;
+}

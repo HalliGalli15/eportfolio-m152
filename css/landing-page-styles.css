@@ -4,19 +4,19 @@
     height: calc(100vh - 170px);
 }
 
-.landing-page .content {
+.landing-page .landing-page-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.landing-page .content img {
+.landing-page .landing-page-content img {
     transition: transform .5s;
     height: calc(100vh - 170px);
 }
 
-.landing-page .content img:hover {
+.landing-page .landing-page-content img:hover {
     /* TODO: Add z-index so it won't overlap */
     transform: scale(1.005); 
 }
@@ -29,14 +29,14 @@
         height: 200px;
     }
     
-    .landing-page .content {
+    .landing-page .landing-page-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     
-    .landing-page .content img {
+    .landing-page .landing-page-content img {
         transition: transform .5s;
         height: 200px;
     }
