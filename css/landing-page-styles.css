@@ -24,9 +24,10 @@
 @media screen and (max-width: 1000px) { 
 
     .landing-page {
-        margin-top: 170px;
+        margin-top: 125px;
+        background-color: coral;
         padding: 0;
-        height: 200px;
+        height: auto;
     }
     
     .landing-page .landing-page-content {
@@ -38,6 +39,7 @@
     
     .landing-page .landing-page-content img {
         transition: transform .5s;
-        height: 200px;
+        width: 100%;
+        height: auto;
     }
 }
