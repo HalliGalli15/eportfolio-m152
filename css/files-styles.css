@@ -25,6 +25,13 @@
 
 @media screen and (max-width: 1000px) {
 
+    .files .content {
+        align-items: center;
+    
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
     .files .content .pdf {
         width: 100%;
         height: 400px;
