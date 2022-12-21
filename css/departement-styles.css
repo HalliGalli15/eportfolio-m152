@@ -1,20 +1,36 @@
 .departement .content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
     gap: 50px;
 
     width: 100%;
 
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
     
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.departement .content .item img {
+.departement .content .text {
+    width: 50%;  
+}
+
+.departement .content .text p {
+    text-align: center;
+}
+
+.departement .content .gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.departement .content .gallery .item img {
     height: 400px;
 }
 

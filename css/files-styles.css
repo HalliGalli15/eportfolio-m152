@@ -1,4 +1,4 @@
-.multimedia .content {
+.files .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,27 +14,27 @@
     padding-right: 20px;
 }
 
-.multimedia .content .text {
-    width: 70%;  
+.files .content .text {
+    width: 50%;  
 }
 
-.multimedia .content .text p {
+.files .content .text p {
     text-align: center;
 }
 
-.multimedia .content .video {
-    width: 70%;
-    height: 583px;
+.files .content .pdf {
+    width: 50%;
+    height: 800px;
 }
 
-.multimedia .content .video iframe {
+.files .content .pdf iframe {
     height: 100%;
     width: 100%;
 }
 
 @media screen and (max-width: 580px) {
 
-    .multimedia .content .video {
+    .files .content .pdf {
         width: 90%;
         height: 400px;
     }
