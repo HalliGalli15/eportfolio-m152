@@ -1,15 +1,13 @@
 function openMenu() {
-  var x = document.getElementById("nav-items");
-  var y = document.getElementById("navbar");
+  var items = document.getElementById("nav-items");
+  var navbar = document.getElementById("navbar");
   var navButton = document.getElementById("nav-button");
 
-  if (x.style.display === "block") {
-    x.style.display = "none";
-    y.style.height = "150px";
+  if (items.style.display === "block") {
+    items.style.display = "none";
     navButton.style.transform = "rotate(0)";
   } else {
-    x.style.display = "block";
-    y.style.height = "350px";
+    items.style.display = "block";
     navButton.style.transform = "rotate(180deg)";
   }
 }

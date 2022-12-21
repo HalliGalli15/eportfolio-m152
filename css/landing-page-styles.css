@@ -21,7 +21,7 @@
     transform: scale(1.005); 
 }
 
-@media screen and (max-width: 580px) { 
+@media screen and (max-width: 1000px) { 
 
     .landing-page {
         margin-top: 170px;

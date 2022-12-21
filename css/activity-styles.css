@@ -27,7 +27,7 @@
     width: 30%;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 1000px) {
 
     .activity .content {
         display: flex;

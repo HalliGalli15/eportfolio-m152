@@ -35,20 +35,32 @@
 }
 
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 1000px) {
 
-    .departement .content {
+    .departement .content .gallery{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         gap: 25px;
     
         width: 100%;
     
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .departement .content .gallery .item img {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .departement .content .text {
+        width: 100%;  
     }
 }
