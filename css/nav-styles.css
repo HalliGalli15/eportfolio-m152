@@ -55,7 +55,6 @@ nav .navbar a:hover {
 
 @media screen and (max-width: 1000px) {
 
-    /* closed menu */
     #logo {
         display: none !important;
     }

@@ -19,3 +19,30 @@
     font-weight: 600;
     font-size: 25px;
 }
+
+.section .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 580px) {
+    .section .header h2 {
+        font-size: 20px !important;
+    }
+
+    .section .header {
+        height: 80px !important;
+    }
+
+    .section .content {
+        gap: 10px !important;
+        margin-top: 25px !important;
+    }
+}
