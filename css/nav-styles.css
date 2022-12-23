@@ -54,6 +54,8 @@ nav .navbar a:hover {
     display: none;
 }
 
+
+
 @media screen and (max-width: 1000px) {
 
     #logo {
@@ -73,6 +75,12 @@ nav .navbar a:hover {
 
     #nav-items {
         display: none;
+    }
+
+    #nav-items.open {
+        display: flex;
+        flex-direction: column !important;
+        gap: 0 !important;
     }
 
     #nav-button {
