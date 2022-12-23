@@ -5,7 +5,7 @@ function scrollFunction() {
     document.getElementById("navbar").style.height = "70px";
     document.getElementById("navbar").style.flexDirection = "row";
     document.getElementById("nav-title").style.display = "none";
-    document.getElementById("logo").style.display = "block";
+    document.getElementById("logo").style.display = "flex";
     document.getElementById("nav-items").style.justifySelf = "center";
   } else {
     document.getElementById("navbar").style.height = "170px";

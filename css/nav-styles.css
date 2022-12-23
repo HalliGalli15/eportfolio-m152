@@ -28,7 +28,8 @@ nav #logo {
     position: absolute;
     margin-left: 20px;
 
-    background-color: gray;
+    justify-content: center;
+    align-items: center;
 }
 
 nav #nav-title h1 {
