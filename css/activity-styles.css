@@ -55,5 +55,6 @@
     
     .activity .content .info-text {
         width: 100%;
+        text-align: center;
     }
 }
